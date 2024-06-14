@@ -9,7 +9,7 @@ export default async function Home({ searchParams }) {
   const res = await fetch(url);
   if (!res.ok) {
     throw new Error("Failed to fetch");
-  }
+  } 
 
   const data = await res.json();
   const results = data.results;
