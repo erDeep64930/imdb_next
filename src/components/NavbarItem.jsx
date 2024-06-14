@@ -8,7 +8,7 @@ const NavbarItem = ({ title, param }) => {
     
     return (
         <div>
-            <Link href={`/?genre=${param}`} className={`hover:text-amber-600 font-semibold ${genre === param ? 'underline underline-offset-8 decoration-4 decoration-amber-500 rounded-lg' : ''}`}>
+            <Link href={`/?genre=${param}`} className={`hover:text-amber-600 font-semibold ${genre === param ? 'underline underline-offset-8 decoration-2 decoration-amber-500 rounded-lg' : ''}`}>
                 {title}
             </Link>
         </div>
